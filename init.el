@@ -210,7 +210,7 @@ If you experience freezing, decrease this.  If you experience stuttering, increa
 
 (require 'init-eww)
 
-(require 'init-mu4e)
+;;; (require 'init-mu4e)
 
 (require 'init-tramp)
 
@@ -228,6 +228,13 @@ If you experience freezing, decrease this.  If you experience stuttering, increa
 
 (require 'init-zone)
 
+;;; (require 'evil)
+;;; (evil-mode 1)
+
 (provide 'init)
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; init.el ends here
+
+(setq default-input-method "korean-hangul")
+(global-set-key (kbd "S-SPC") 'toggle-input-method)
+(global-set-key (kbd "<f4>") 'save-buffers-kill-terminal)
