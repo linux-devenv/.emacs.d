@@ -36,8 +36,8 @@
 ;;; Code:
 
 ;; UserInfo
-(setq user-full-name "Mingde (Matthew) Zeng")
-(setq user-mail-address "matthewzmd@gmail.com")
+(setq user-full-name "Heegoo Han")
+(setq user-mail-address "heegoo.han@lge.com")
 ;; -UserInfo
 
 ;; Consts
